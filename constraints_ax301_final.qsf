@@ -1,0 +1,50 @@
+set_location_assignment PIN_E1 -to clk
+set_location_assignment PIN_N13 -to RESET
+set_location_assignment PIN_M15 -to A[0]
+set_location_assignment PIN_M16 -to A[1]
+set_location_assignment PIN_E16 -to A[2]
+set_location_assignment PIN_N14 -to A[3]
+set_location_assignment PIN_L14 -to B[0]
+set_location_assignment PIN_L15 -to B[1]
+set_location_assignment PIN_K15 -to B[2]
+set_location_assignment PIN_K16 -to B[3]
+set_location_assignment PIN_R16 -to SS[0]
+set_location_assignment PIN_T14 -to SS[1]
+set_location_assignment PIN_E10 -to c_out
+set_location_assignment PIN_F9 -to over
+set_location_assignment PIN_C9 -to LED_S1
+set_location_assignment PIN_D9 -to LED_S0
+set_location_assignment PIN_R14 -to display[0]
+set_location_assignment PIN_N16 -to display[1]
+set_location_assignment PIN_P16 -to display[2]
+set_location_assignment PIN_T15 -to display[3]
+set_location_assignment PIN_P15 -to display[4]
+set_location_assignment PIN_N12 -to display[5]
+set_location_assignment PIN_N15 -to display[6]
+set_location_assignment PIN_N9 -to anode[0]
+set_location_assignment PIN_P9 -to anode[1]
+set_location_assignment PIN_M10 -to anode[2]
+set_location_assignment PIN_N11 -to anode[3]
+set_location_assignment PIN_P11 -to anode[4]
+set_location_assignment PIN_M11 -to anode[5]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6F17C8
+set_global_assignment -name TOP_LEVEL_ENTITY ula
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:27:21  JUNE 17, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name VHDL_FILE ULA.vhd
+set_global_assignment -name SDC_FILE "C:/Users/DESKTOP/Downloads/clockULA.sdc"
+set_global_assignment -name VHDL_FILE "C:/Users/DESKTOP/Downloads/ula.vhd"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
